@@ -1,0 +1,25 @@
+/* 参考颜色变量定义文件
+ * https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/_colors.scss
+ */
+
+[data-md-color-scheme="custom"] {
+  --md-primary-fg-color: #3A4D39;     /* 顶栏 */
+  --md-default-bg-color: #739072;     /* 页面 */
+  --md-code-bg-color:    #BDD2B6;     /* code */
+  --md-admonition-bg-color: #A9AF7E;  /* 引用 */
+  --md-footer-bg-color:  #3A4D39;     /* 页脚 */
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #427D9D;
+  --md-default-bg-color: #EEE9DA;
+  --md-code-bg-color:    #EEE3CB;
+  --md-footer-bg-color:  #9BBEC8;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #000000;
+  --md-default-bg-color: #0f0c0c;
+  --md-footer-bg-color:  #000000;
+}
+

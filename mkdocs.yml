@@ -1,0 +1,176 @@
+# refer from https://squidfunk.github.io/mkdocs-material/
+site_name: 村夫的笔记
+site_description: 笔记 
+site_author: cunfus
+site_url: https://cunfus.github.io
+
+repo_name: 'cunfus/cunfus.github.io'
+repo_url: https://github.com/cunfus/cunfus.github.io
+
+copyright: Copyright &copy; 2024 <a href="https://github.com/cunfus" target="_blank" rel="noopener">cunfus</a>
+
+
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  # logo:  asserts/images/logo.png
+  favicon: asserts/images/code-solid.svg
+  palette:
+    - scheme: custom
+      # primary: orange
+      accent: orange
+      toggle:
+        icon: material/lightbulb
+        name: dark mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: eye-protection mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: light mode
+  font:  
+    text: 'LXGW WenKai Screen'
+    code: 'Fira Code' 
+  features:
+    - navigation.instant     # 即时加载
+    - navigation.tracking    # 锚点跟踪
+    - navigation.indexes     # 次级索引页
+    - navigation.tabs        # 导航选项卡
+    - navigation.top         # 一键返回顶部
+    - navigation.footer      # 上下页链接
+    ### 代码
+    - content.code.copy
+    - content.code.annotate
+
+extra_css:
+  # - https://cdn.staticfile.org/lxgw-wenkai-webfont/1.6.0/style.css
+  # - https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.7.0/style.css
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/cunfus
+    - icon: fontawesome/solid/envelope
+      link: mailto:<cunfuss@outlook.com>
+
+plugins:
+  - git-revision-date-localized:
+      type: datetime
+      locale: zh
+      timezone: Asia/Shanghai
+
+markdown_extensions:
+  ### refer from https://shafish.cn/blog/mkdocs
+  ### 术语
+  - abbr            
+  - pymdownx.snippets
+  ### 提示
+  - admonition           
+  - pymdownx.details     
+  - pymdownx.superfences 
+  ### 按钮
+  - attr_list
+  ### 代码块
+  - pymdownx.highlight:  
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  ### 内容标签栏
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  ### 表格
+  - tables
+  ### 格式化
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  ###图标
+  - pymdownx.emoji:
+      #emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      #emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  ### 图片
+  - attr_list
+  - md_in_html
+  ### 列表
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+### 内容列表
+nav:
+  - 首页: 
+    - index.md
+    - changelog.md
+  - 随笔:
+    - write/index.md
+    - write/email.md
+    - self-hosted:
+      - write/selfhost/svn.md
+      - write/selfhost/add-ssl.md
+    - scaffold:
+      - write/scaffold/doxygen.md
+      - write/scaffold/gtest.md
+    - net:
+      - write/net/tun-tap.md
+      - write/net/tcp-ip-stack.md
+      - write/net/socket-api.md
+      - write/net/io-multiplex.md
+    - link-load:
+      - write/link-load/compile-link.md  
+      - write/link-load/gcc-optimize.md
+      - write/link-load/c-common-problem.md
+
+  - 阅读:
+    - read/index.md
+    - read/worldviews.md
+
+  - 工具:
+    - tool/index.md
+    - tool/man.md
+    - tool/trans.md
+    - tool/task.md
+    - tool/time.md
+    - tool/zsh.md
+    - tool/tmux.md
+    - tool/vim.md
+    - tool/git.md
+    - tool/svn.md
+    - tool/make.md
+    - tool/pacman.md
+    - tool/docker.md
+    - tool/markdown.md
+    - tool/linkbox.md
+    - 软件:
+      - tool/aseprite.md 
+      - tool/jupyter.md 
+      - tool/manim.md 
+
+  - 编程:
+    - code/index.md 
+    - code/cpp.md
+
+    - rust:
+      - code/rust/index.md
+      - code/rust/setup.md
+
+    - leetcode:
+      - code/leetcode/index.md
+      - code/leetcode/top_interview.md
+      - code/leetcode/sliding-window.md
+    
+
+

@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>遐思</title><link>https://cunfus.github.io/</link><description>Recent content on 遐思</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Wed, 13 Nov 2024 13:29:25 +0800</lastBuildDate><atom:link href="https://cunfus.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://cunfus.github.io/about/</link><pubDate>Wed, 13 Nov 2024 13:29:25 +0800</pubDate><guid>https://cunfus.github.io/about/</guid><description>&lt;p>
-&lt;p>不要去倾听枯燥乏味的说教，也别试图去补救无望的过失，别在愚昧、庸俗和猥琐的事上浪费你的生命。&lt;/p>
-&lt;p>那些是我们这个时代病态的目标和虚假的理想。&lt;/p>
-&lt;p>去过你奇妙的生活吧！一分一秒都不要浪费。&lt;/p>
 &lt;/p>
+&lt;p>不要去倾听枯燥乏味的说教，也别试图去补救无望的过失，别在愚昧、庸俗和猥琐的事上浪费你的生命。&lt;br>
+那些是我们这个时代病态的目标和虚假的理想。&lt;br>
+去过你奇妙的生活吧！一分一秒都不要浪费。&lt;/p>
 &lt;div style="text-align: right;">
 —— 王尔德《道林·格雷的画像》
 &lt;/div>
-&lt;hr>
-&lt;h2 id="链接">链接&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="mailto:cunfuss@outlook.com">邮箱&lt;/a>   &lt;a href="https://mastodon.social/@cunfus">Mastodon&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="致谢">致谢&lt;/h2>
-&lt;p>感谢以下平台和组件，提供了美观的页面呈现效果。同时，让我免去部分时间精力去维护服务器等设施。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://pages.github.com/">Github Pages&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gohugo.io/">Hugo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/joeroe/risotto">Risotto theme&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://chinese-font.netlify.app/zh-cn/">中文网字计划&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;h2 id="关于我">关于我&lt;/h2>
+&lt;p>&lt;/p>
+&lt;p>喜欢看蓝天白云、喜欢观夜间星空、喜欢听虫鸣鸟叫，喜欢自然与自由。&lt;/p>
+&lt;h2 id="关于本站">关于本站&lt;/h2>
+&lt;p>本站由 &lt;a href="https://pages.github.com/">Github Pages&lt;/a> &amp;amp; &lt;a href="https://gohugo.io/">Hugo&lt;/a> 驱动，使用 &lt;a href="https://github.com/joeroe/risotto">Risotto&lt;/a> 主题，采用 &lt;a href="https://github.com/lxgw/LxgwWenKai">霞鹜文楷&lt;/a> 字体。&lt;/p></description></item></channel></rss>
